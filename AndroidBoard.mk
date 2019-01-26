@@ -17,3 +17,6 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
+
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/lineage_taoshan.mk
